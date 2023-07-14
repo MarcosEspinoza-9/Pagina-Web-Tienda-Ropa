@@ -6,43 +6,46 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="Css/style.css">
+    
   </head>
-  <body>
+  <body class="bg-info bg-opacity-10">
     <!-- Contenedor principal -->
-    <div class="container-md text-center">
+    <div class="container-md text-center ">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar scroll</a>
+        <nav class="navbar navbar-expand-lg bg-secondary ">
+            <div class="container-fluid w-100 ">
+              <img src="Images/Logotipo/logo.png" alt="" id="logotipo">
+              <a class="navbar-brand text-light" href="#">Manuri</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link text-light" href="#">Productos</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Link
+                    <a class="nav-link dropdown-toggle text-light"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categorías
                     </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <ul class="dropdown-menu bg-danger-subtle ">
+                      <li><a class="dropdown-item " href="#">Ropa De Verano</a></li>
+                      <li><a class="dropdown-item " href="#">Ropa Casual</a></li>
+                      <li><a class="dropdown-item " href="#">Vestidos</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item " href="#">Todas Las Categorías</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Link</a>
+                  <li class="nav-item ">
+                    <a class="nav-link disabled text-light">Contacto</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                <form class="d-flex " role="search">
+                  <input class="form-control me-2 bg-success-subtle" type="search" placeholder="Buscar Por Categoría" aria-label="Search">
+                  <button class="btn btn-outline-success bg-danger-subtle" type="submit">Buscar</button>
                 </form>
               </div>
             </div>
@@ -57,7 +60,7 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="Images/slider1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>First slide label</h5>
                   <p>Some representative placeholder content for the first slide.</p>
