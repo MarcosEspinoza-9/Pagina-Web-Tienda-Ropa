@@ -5,11 +5,22 @@
 body {
     background: linear-gradient(to bottom, #ECECEC, #F4F4F4);
   }
-  
-  
-  
 #logotipo{
     width: 55px;
     border-radius: 1rem;
     margin-right: 1rem;
+}
+#carouselExampleCaptions{
+padding: 1rem;
+}
+#contenido img {
+    height: 663px;
+  }
+#products{
+    padding: 2rem;
+    padding-top: 2rem;
+    width: 50%;
+}
+#cardcontent{
+    padding: 1rem;
 }

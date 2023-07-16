@@ -6,13 +6,13 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="Css/style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   </head>
   <body class="bg-info bg-opacity-10">
     <!-- Contenedor principal -->
     <div class="container-md text-center ">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-secondary ">
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top ">
             <div class="container-fluid w-100 ">
               <img src="Images/Logotipo/logo.png" alt="" id="logotipo">
               <a class="navbar-brand text-light" href="#">Manuri</a>
@@ -32,8 +32,10 @@
                       Categorías
                     </a>
                     <ul class="dropdown-menu bg-danger-subtle ">
-                      <li><a class="dropdown-item " href="#">Ropa De Verano</a></li>
                       <li><a class="dropdown-item " href="#">Ropa Casual</a></li>
+                      <li><a class="dropdown-item " href="#">Conjuntos</a></li>
+                      <li><a class="dropdown-item " href="#">Moda</a></li>
+                      <li><a class="dropdown-item " href="#">Formal</a></li>
                       <li><a class="dropdown-item " href="#">Vestidos</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item " href="#">Todas Las Categorías</a></li>
@@ -52,32 +54,33 @@
           </nav>
        <!-- Fin Navbar -->
         <!-- Carrusel -->
-        <div id="carouselExampleCaptions" class="carousel slide">
+        <div id="carouselExampleCaptions" class="carousel slide" >
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="Images/slider1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
+            <div class="carousel-inner fw-bold" id="contenido">
+              <div class="carousel-item active   " >
+                <img src="Images/Ubicacion/ubicacion-5.jpg" class="d-block w-100 "   alt="Not Found 404">
+                <div class="carousel-caption d-none d-md-block text-black  ">
+                  <!-- <h4>Plaza Metropolitana Moroleón</h4> -->
+                  <p>Dile adiós al "no tengo que ponerme y viste de una forma atractiva y elegante".</p>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <img src="Images/Ubicacion/ubicacion-4.jpg" class="d-block w-100" alt="Not Found 404">
+                <div class="carousel-caption d-none d-md-block text-black">
+                  <!-- <h5>Second slide label</h5> -->
+                  <p>"Elígete, elige tu estilo!".</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
+                <img src="Images/Local interior/interior-5.jpg" class="d-block w-100" alt="Not Found 404">
+                <div class="carousel-caption d-none d-md-block text-black">
+                  <!-- <h5>Third slide label</h5> -->
+                  <p>No digas quién eres, demuéstrales quién eres.</p>
                 </div>
               </div>
             </div>
@@ -92,6 +95,102 @@
           </div>
 
         <!-- Fin carussel -->
+
+        <!-- Cards-->
+        <div class="container-md bg-secondary-subtle p-md-3" id="products">
+          <h2>Nuestros Productos</h2>
+
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4" id="cardcontent">
+          <div class="col">
+            <div class="card">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
+              <div class="card-body">
+                <h5 class="card-title">Blusa Casual</h5>
+                <p class="card-text">¡Blusa color rosa, ideal para el verano!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Images/De Moda/moda-5.jpg" class="card-img-top" alt="Not Foumnd 404">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Images/Formal/formal-5.jpg" class="card-img-top" alt="Not Foumnd 404">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Images/Ropa invierno/invierno-2.jpg" class="card-img-top" alt="Not Foumnd 404">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="Images/Nuevo/nuevo-1.jpg" class="card-img-top" alt="Not Foumnd 404">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Images/Vestidos/vestido-1.jpg" class="card-img-top" alt="Not Found 404">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fin de las cards -->
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white">
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-md-4">
+                <h5>¿Quiénes somos?</h5>
+                <p>"Somos tu destino de moda para mujeres. Encuentra lo último en tendencias y estilo en nuestra tienda de ropa para damas. ¡Gracias por elegirnos!"</p>
+              </div>
+              <div class="col-md-4">
+                <h5>Contacto</h5>
+                <p>Correo: marcosprogram96@gmail.com <br>Telefono: +52 445-119-90-20<br>Direccion: Plaza Metropolitana De Moroleón Guanajuato <br> Ubicación: Plaza Textil Metropolitana, 12 de Octubre, El Llanito, Moroleón, Gto.
+                <li class="list-inline-item"><a href="https://www.google.com.mx/maps/place/Plaza+Textil+Metropolitana/@20.1345454,-101.1872677,17z/data=!3m1!4b1!4m6!3m5!1s0x842cfaea088744d3:0x1bca8f42c7445268!8m2!3d20.1345454!4d-101.1846874!16s%2Fg%2F11dx920td9?entry=ttu"><i class="fas fa-map-marker-alt"></i></a></li>  </p>
+              </div>
+              <div class="col-md-4">
+                <h5>Siguenos En Redes Sociales</h5>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="list-inline-item"><a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Des"><i class="fab fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="instagram.com"><i class="fab fa-instagram"></i></a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="bg-secondary py-3">
+            <div class="container text-center">
+              <p class="mb-0">&copy; 2023 Manuri Company. Todos los derechos reservados.</p>
+            </div>
+          </div>
+        </footer>
+        
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
