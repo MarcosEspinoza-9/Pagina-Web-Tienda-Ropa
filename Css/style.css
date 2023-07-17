@@ -3,16 +3,25 @@
     padding: 0;
 }
 body {
-    background: linear-gradient(to bottom, #ECECEC, #F4F4F4);
+    background: linear-gradient(to bottom, #e5e5e5, #cccccc);
   }
+  
 #logotipo{
     width: 55px;
     border-radius: 1rem;
     margin-right: 1rem;
 }
 #carouselExampleCaptions{
-padding: 1rem;
+    margin: 0 auto;
+    max-width: 87vw; /* 87% del viewport width */
+    height: 100vh; /* 50% del viewport height */
+    overflow: hidden; /* Para evitar barras de desplazamiento */
 }
+#carouselExampleCaptions .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 #contenido img {
     height: 663px;
   }
@@ -23,4 +32,67 @@ padding: 1rem;
 }
 #cardcontent{
     padding: 1rem;
+    width: 100%;
+    display: flex;
+  
 }
+#conjuntos-uno{
+    /* border: black solid; */
+    text-align: center;
+    width:95%;
+    height: 20%!important;
+}
+#moda-uno{
+    /* border: rgb(221, 41, 41) solid; */
+    text-align: center;
+    width:95%;
+    height: 20%!important;
+}
+#formal-uno{
+    /* border: rgb(13, 240, 78) solid; */
+    text-align: center;
+    width:95%;
+    height: 20%!important;
+}
+#vestidos-uno{
+    /* border: rgb(83, 16, 241) solid; */
+    text-align: center;
+    width:95%;
+    height: 20%!important;
+}
+.carousel-item {
+    opacity: 2;
+    transition: opacity 1s ease-in-out;
+    object-fit: cover;
+  height: 100%; /* Ajusta la altura al 100% del contenedor */
+  }
+
+  .carousel-item.active {
+    opacity: 1;
+  }
+/* MEDIAQUERYES PANTALLAS CHICAS */
+  @media (max-width: 768px) {
+  #carouselExampleCaptions {
+    margin: 0 auto;
+    max-width: 87vw; /* 87% del viewport width */
+    height: 50%; /* 30% del viewport height */
+    overflow:  hidden; /* Para evitar barras de desplazamiento */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-item img {
+    width: 90%; /* Ajusta el valor según tus necesidades */
+    margin: 0 auto; /* Para centrar la imagen horizontalmente */
+  }
+
+  #carouselExampleCaptions .carousel-item img {
+    max-width: 100%; /* Ajusta el valor según tus necesidades */
+    height:  90vw; /* Ajusta el valor según tus necesidades */
+  }
+}
+
+  
