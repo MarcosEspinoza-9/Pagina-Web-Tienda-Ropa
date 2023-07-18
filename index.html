@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
   </head>
   <body class="">
     <!-- Contenedor principal -->
@@ -53,7 +55,7 @@
             </div>
           </nav>
        <!-- Fin Navbar -->
-       s
+       
         <!-- Carrusel -->
         <div id="carouselExampleCaptions" class="carousel slide" >
             <div class="carousel-indicators">
@@ -62,7 +64,6 @@
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
             
             </div>
             <div class="carousel-inner fw-bold" id="contenido">
@@ -101,13 +102,7 @@
                   <!-- <p>"Elígete, elige tu estilo!".</p> -->
                 </div>
               </div>
-              <div class="carousel-item">
-                <img src="Images/Local interior/interior-5.jpg" class="d-block w-100" alt="Not Found 404">
-                <div class="carousel-caption d-none d-md-block text-black">
-                  <!-- <h5>Third slide label</h5> -->
-                  <!-- <p>No digas quién eres, demuéstrales quién eres.</p> -->
-                </div>
-              </div>
+            
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -127,81 +122,440 @@
         </div>
         </div>
         <div class="row  row-cols-1 row-cols-md-2 g-4  " id="cardcontent">
+          
           <div class="col">
             <div class="card" id="card-1">
               <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Blusa Casual</h5>
-                <p class="card-text">¡Blusa color rosa, ideal para el verano!</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
+            <!-- CARD 2 -->
           <div class="col">
-            <div class="card">
-              <img src="Images/Casual/blusa-2.jpg" class="card-img-top" alt="Not Foumnd 404">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
+          <!-- CARD 3 -->
           <div class="col">
-            <div class="card">
-              <img src="Images/Casual/blusa-12.jpg" class="card-img-top" alt="Not Foumnd 404">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark"id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
+          <!-- CADR 4 -->
           <div class="col">
-            <div class="card">
-              <img src="Images/Casual/blusa-13.jpg" class="card-img-top" alt="Not Foumnd 404">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
-          </div> 
+          </div>
           <!-- Conjuntos -->
           <div class="col-11 " id="conjuntos-uno">
             <h2>Conjuntos</h2>
           </div>
 
-          
+          <!-- CARD 5 -->
           <div class="col">
-            <div class="card">
-              <img src="Images/Conjuntos/conjunto-1.jpg" alt="Not Foumnd 404">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
+          <!-- CARD 6 -->
           <div class="col">
-            <div class="card">
-              <img src="Images/Conjuntos/conjunto-2.jpg" class="card-img-top" alt="Not Found 404">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div> 
-          <div class="col">
-            <div class="card">
-              <img src="Images/Conjuntos/conjunto-3.jpg" class="card-img-top" alt="Not Found 404">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
+          <!-- CARD 7  -->
           <div class="col">
-            <div class="card">
-              <img src="Images/Conjuntos/conjunto-4.jpg" class="card-img-top" alt="Not Found 404">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 8 -->
+          <div class="col">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
+              <div class="card-body">
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -209,80 +563,440 @@
           <div class="col-11 " id="moda-uno">
             <h2>Moda</h2>
           </div>
+          <!-- CARD 9 -->
           <div class="col">
-            <div class="card">
-              <img src="Images/De Moda/moda-1.jpg" class="card-img-top" alt="Not Found 404">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
-          
+          <!-- CARD 10 -->
           <div class="col">
-            <div class="card">
-              <img src="Images/De Moda/moda-4.jpg" class="card-img-top" alt="Not Found 404">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div><div class="col">
-            <div class="card">
-              <img src="Images/De Moda/moda-5.jpg" class="card-img-top" alt="Not Found 404">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
-            <div class="col">
-            <div class="card">
-              <img src="Images/De Moda/moda-7.jpg" class="card-img-top" alt="Not Found 404">
+          <!-- CARD 11 -->
+          <div class="col">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
-          </div> 
+          </div>
+          <!-- CARD 12 -->
+          <div class="col">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
+              <div class="card-body">
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
           <!-- FORMAL -->
           <div class="col-11 " id="formal-uno">
             <h2>Ropa Formal</h2>
           </div>
 
-
+         <!-- CARD 13 -->
+         <div class="col">
+          <div class="card" id="card-1">
+            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
+            <div class="card-body">
+              <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+              <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+              <div class="container text-center">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                  </div>
+                  <div class="col">
+                    <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                  </div>
+                  <div class="col">
+                    <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                  </div>
+                </div>
+              </div>
+              <!-- Scrollable modal -->
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Ver más
+              </button>
+              
+                </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="card" style="width: fit-content;">
+                          <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="text-body-emphasis ">
+                              Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+          <!-- CARD 14 -->
           <div class="col">
-            <div class="card">
-              <img src="Images/Formal/formal-1.jpg" class="card-img-top" alt="Not Found 404">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
+          <!-- CARD 15 -->
           <div class="col">
-            <div class="card">
-              <img src="Images/De Moda/moda-4.jpg" class="card-img-top" alt="Not Found 404">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div><div class="col">
-            <div class="card">
-              <img src="Images/Formal/formal-3.jpg" class="card-img-top" alt="Not Found 404">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
-            <div class="col">
-            <div class="card">
-              <img src="Images/Formal/formal-6.jpg" class="card-img-top" alt="Not Found 404">
+          <!-- CARD 16 -->
+          <div class="col">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -291,39 +1005,219 @@
           <div class="col-11 " id="vestidos-uno">
             <h2>Vestidos</h2>
           </div>
-
+         <!-- CARD 17 -->
+         <div class="col">
+          <div class="card" id="card-1">
+            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
+            <div class="card-body">
+              <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+              <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+              <div class="container text-center">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                  </div>
+                  <div class="col">
+                    <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                  </div>
+                  <div class="col">
+                    <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                  </div>
+                </div>
+              </div>
+              <!-- Scrollable modal -->
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Ver más
+              </button>
+              
+                </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="card" style="width: fit-content;">
+                          <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="text-body-emphasis ">
+                              Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+          <!-- CARD 18 -->
           <div class="col">
-            <div class="card">
-              <img src="Images/Vestidos/vestido-1.jpg" class="card-img-top" alt="Not Found 404">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
+          <!-- CARD 19 -->
           <div class="col">
-            <div class="card">
-              <img src="Images/Vestidos/vestido-3.jpg" class="card-img-top" alt="Not Found 404">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div><div class="col">
-            <div class="card">
-              <img src="Images/Vestidos/vestido-9.jpg" class="card-img-top" alt="Not Found 404">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
-            <div class="col">
-            <div class="card">
-              <img src="Images/Vestidos/vestido-10.jpg" class="card-img-top" alt="Not Found 404">
+          <!-- CARD 20 -->
+          <div class="col">
+            <div class="card" id="card-1">
+              <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="Not Foumnd 404">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="text-center text-uppercase font-weight-bold text-bg-secondary mb-4" style="font-size: 2rem;">Blusa casual</h2>
+                <h6 class="font-weight-light text-bg-light" style="font-size: 1.2rem;">Tallas</h6>
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Ch
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon"></i> Md
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-tshirt fa-sm bounce-icon "></i> Grd
+                    </div>
+                  </div>
+                </div>
+                <!-- Scrollable modal -->
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-dark" id="botoncards" style="display: block; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver más
+                </button>
+                
+                  </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ropa Casual</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="card" style="width: fit-content;">
+                            <img src="Images/Casual/blusa-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="text-body-emphasis ">
+                                Esta blusa roja de verano es perfecta para lucir elegante y fresca en los días soleados. Está confeccionada con un suave y ligero tejido que te mantendrá cómoda durante todo el día.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -379,15 +1273,15 @@
           const previousItem = carousel.querySelector(".carousel-item.active");
           previousItem.classList.remove("active");
           previousItem.style.opacity = 1;
-          previousItem.style.transition = "opacity 2.5s ease-in-out";
+          previousItem.style.transition = "opacity 1s ease-in-out";
     
           const nextItem = carouselItems[currentIndex];
           nextItem.classList.add("active");
           nextItem.style.opacity = 0;
     
           setTimeout(function() {
-            previousItem.style.opacity = 3;
-            nextItem.style.opacity = 3;
+            previousItem.style.opacity = 1;
+            nextItem.style.opacity = 31;
           }, 50);
     
           currentIndex = (currentIndex + 1) % carouselItems.length;
@@ -396,7 +1290,7 @@
     
         // Iniciar el cambio de diapositiva automático
         function startSlideShow() {
-          intervalId = setInterval(changeSlide, 7000);
+          intervalId = setInterval(changeSlide, 3000);
           
         }
     
@@ -404,6 +1298,7 @@
         function stopSlideShow() {
           clearInterval(intervalId);
         }
+        
     
         // Iniciar el cambio de diapositiva automático al cargar la página
         startSlideShow();
@@ -416,10 +1311,5 @@
         carouselItems[currentIndex].classList.add("slide-show");
       });
     </script>
-    
-    
-    
-    
-    
   </body>
 </html>

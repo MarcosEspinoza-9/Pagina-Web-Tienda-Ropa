@@ -28,12 +28,15 @@ body {
 #products{
     padding: 2rem;
     padding-top: 2rem;
-    width: 50%;
+    width: 30%;
 }
 #cardcontent{
-    padding: 1rem;
-    width: 100%;
+  padding: 30px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
   
 }
 #conjuntos-uno{
@@ -95,4 +98,62 @@ body {
   }
 }
 
-  
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce-icon {
+  animation: bounce 2s infinite;
+}
+
+#botoncards:hover {
+  animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Define los keyframes para la animación */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Aplica la animación a los elementos deseados */
+.card,
+.modal-content {
+  animation: slideIn 1s ease-in-out forwards;
+  opacity: 0; /* Asegúrate de establecer la opacidad inicialmente en 0 */
+}
+
+/* Ajusta el retraso para cada elemento */
+.card {
+  animation-delay: 0.5s;
+}
+/* Animacion footer */
+
+
+
