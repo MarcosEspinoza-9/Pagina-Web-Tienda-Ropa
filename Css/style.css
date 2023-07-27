@@ -26,12 +26,12 @@ body {
     height: 663px;
   }
 #products{
-    padding: 2rem;
+    padding: 1rem;
     padding-top: 2rem;
     width: 30%;
 }
 #cardcontent{
-  padding: 30px;
+  padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
