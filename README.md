@@ -1,4 +1,4 @@
-# Pagina-Web-Tienda-Ropa
+# Web site-Clothing store
 Project created with Html5,Css,JavaScript and Bootstrap
 This is my first project for a clothing store where the 
 customer just wants to see their products and know where 
